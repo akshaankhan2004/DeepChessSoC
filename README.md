@@ -6,4 +6,4 @@ It contains two neural nets, Pos2Vec and Siamese network, where the first one is
 Dropout regularisation is used to reduce overfitting.
 It is still in training process and the provisional code is available.
 # Problems
-The model seem to give a Test accuracy of 87%, but the training accuracy seems to be 78.86%, considerably low, which means the model is underfitting.
+The model seem to give a Tran accuracy of 87%, but the testing accuracy seems to be 78.86%, considerably low, which means the model is overfitting.
