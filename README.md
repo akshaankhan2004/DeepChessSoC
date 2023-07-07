@@ -7,3 +7,5 @@ Dropout regularisation is used to reduce overfitting.
 It is still in training process and the provisional code is available.
 # Problems
 The model seem to give a Train accuracy of 87%, but the testing accuracy seems to be 78.86%, considerably low, which means the model is overfitting.
+
+Preferable depth to play would be 3 as it makes kind of good moves with it but it takes a lot of time, around 10-20 minutes for one move, meanwhile increasing more depth would take a lot of time, and with depth of 1 or 2, it plays recklessly. Looking for the ways to decrease this time compolexity.
