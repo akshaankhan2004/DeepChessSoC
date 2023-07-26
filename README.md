@@ -15,5 +15,7 @@ Preferable depth to play would be 3 as it makes kind of good moves with it but i
 I used an online ELO predictor to check how well it plays, which checked it by giving 10 random positions, it predicted an ELO of 1350 for puzzles when played with the depth of 3. (ELO might not be an accurate one and can be rounded off for reference)
 # References and Resources
 TensorFlow tutorial- https://www.tensorflow.org/tutorials
+
 DeepChess Research Paper- https://arxiv.org/pdf/1711.09667.pdf
+
 Mentor GitHub Repo for Resources- https://github.com/navyanshmahla/deep-carlsen-SoC23
