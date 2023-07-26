@@ -1,7 +1,6 @@
+To run the files, download whole "FinalEngine" folder to desktop and run the 'BestMove.ipynb' file. You can input desired position to get the best move.
 # DeepCarlsen SoC
 This is my repository for Summer of Code 2023 project under Web and Coding Club of IIT Bombay, under the mentorship of my SoC mentors Navyansh Mahla and Atishay Jain.
-
-To run the files, download whole "FinalEngine" folder to desktop and run the 'BestMove.ipynb' file. You can input desired position to get the best move.
 
 I try to create an AI Chess playing model based on the paper DeepChess.
 Data is prepared using CCRL datasets available on their website.
