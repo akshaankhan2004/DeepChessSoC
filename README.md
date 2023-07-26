@@ -16,6 +16,8 @@ I used an online ELO predictor to check how well it plays, which checked it by g
 # References and Resources
 TensorFlow tutorial- https://www.tensorflow.org/tutorials
 
+
 DeepChess Research Paper- https://arxiv.org/pdf/1711.09667.pdf
+
 
 Mentor GitHub Repo for Resources- https://github.com/navyanshmahla/deep-carlsen-SoC23
