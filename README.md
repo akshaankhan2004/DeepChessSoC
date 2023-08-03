@@ -1,4 +1,6 @@
 To run the files, download whole "FinalEngine" folder to desktop and run the 'BestMove.ipynb' file. You can input desired position to get the best move.
+
+You can also run PlayGame.ipynb to play with the engine directly on PyGame interface, make sure to download the library.
 # DeepCarlsen SoC
 This is my repository for Summer of Code 2023 project under Web and Coding Club of IIT Bombay, under the mentorship of my SoC mentors Navyansh Mahla and Atishay Jain.
 
@@ -11,7 +13,11 @@ Dropout regularisation is used to reduce overfitting.
 # Problems
 The model seem to give a Train accuracy of 87%, but the testing accuracy seems to be 78.86%, considerably low, which means the model is overfitting.
 
-Preferable depth to play would be 3 as it makes kind of good moves with it but it takes a lot of time, around 3-5 minutes for one move (on GPU), depending upon the complexity of the position, meanwhile increasing more depth would take a lot of time, and with depth of 1 or 2, it plays recklessly. Looking for the ways to decrease this time complexity.
+To reduce this overfitting, I have used Dropout regularisation, in contrary to the paper, in which no regularisation was used.
+
+Due to lack of Computational resources, the model was trained on less epochs than specified in the paper.
+
+Preferable depth to play would be 3 as it makes kind of good moves with it but it takes a lot of time, around 7-15 minutes on CPU, depending upon the complexity of the position, meanwhile increasing more depth would take a lot of time, and with depth of 1 or 2, it plays recklessly. Looking for the ways to decrease this time complexity. Better computational power will surely benefit. With depth of 1, it takes only 1-3 seconds for a single move.
 
 I used an online ELO predictor to check how well it plays, which checked it by giving 10 random positions, it predicted an ELO of 1350 for puzzles when played with the depth of 3. (ELO might not be an accurate one and can be rounded off for reference)
 # References and Resources
