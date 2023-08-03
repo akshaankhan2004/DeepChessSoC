@@ -17,7 +17,7 @@ To reduce this overfitting, I have used Dropout regularisation, in contrary to t
 
 Due to lack of Computational resources, the model was trained on less epochs than specified in the paper.
 
-Preferable depth to play would be 3 as it makes kind of good moves with it but it takes a lot of time, around 7-15 minutes on CPU, depending upon the complexity of the position, meanwhile increasing more depth would take a lot of time, and with depth of 1 or 2, it plays recklessly. Looking for the ways to decrease this time complexity. Better computational power will surely benefit. With depth of 1, it takes only 1-3 seconds for a single move.
+Preferable depth to play would be 3 or more as it makes kind of good moves with it but it takes a lot of time, around 7-15 minutes on CPU, depending upon the complexity of the position, meanwhile increasing more depth would take a lot of time, and with depth of 1 or 2, it plays recklessly. Looking for the ways to decrease this time complexity. Better computational power will surely benefit. With depth of 1, it takes only 1-3 seconds for a single move.
 
 I used an online ELO predictor to check how well it plays, which checked it by giving 10 random positions, it predicted an ELO of 1350 for puzzles when played with the depth of 3. (ELO might not be an accurate one and can be rounded off for reference)
 # References and Resources
