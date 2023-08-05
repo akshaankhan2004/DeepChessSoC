@@ -1,7 +1,7 @@
 To run the files, download whole "FinalEngine" folder to desktop and run the 'BestMove.ipynb' file. You can input desired position to get the best move.
 
 You can also run PlayGame.ipynb to play with the engine directly on PyGame interface, make sure to download the library.
-# DeepCarlsen SoC
+# SoC-2023 Deep Carlsen
 This is my repository for Summer of Code 2023 project under Web and Coding Club of IIT Bombay, under the mentorship of my SoC mentors Navyansh Mahla and Atishay Jain.
 
 I try to create an AI Chess playing model based on the paper DeepChess.
