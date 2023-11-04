@@ -11,7 +11,7 @@ It contains two neural nets, Pos2Vec and Siamese network, where the first one is
 Pos2Vec is trained for 100 epochs for each autoencoder while Siamese network is trained for 500 epochs.
 Dropout regularisation is used to reduce overfitting.
 # Problems
-The model seem to give a Train accuracy of 87%, but the testing accuracy seems to be 78.86%, considerably low, which means the model is overfitting.
+The model gives a Train accuracy of 87%, but the testing accuracy is 78.86%, considerably low, which means the model is overfitting.
 
 To reduce this overfitting, I have used Dropout regularisation, in contrary to the paper, in which no regularisation was used.
 
